@@ -3,6 +3,7 @@ let ages = [25, 54, 23, 32];
 let container = document.createElement('div');
 document.body.appendChild(container);
 container.style.textAlign = 'center';
+// container.style.backgroundColor = '#8ee4f0';
 
 function elements(names, ages){
     let card = document.createElement('div');
@@ -25,12 +26,12 @@ function elements(names, ages){
     card.style.width = '200px';
     img.style.width = '100%';
     card.style.padding = '10px';
-    card.style.margin = '4px';
+    card.style.margin = '2px';
     card.style.display = 'inline-block';
-    // body.style.backgroundcolor = '#444';
+    card.style.backgroundColor = '#8ee4f0';
 }
 
-for (let i = 0; i < 6; i++){
+for (let i = 0; i < 16; i++){
     elements(names[i], ages[i]);
 }
 document.write('Your Title'.link('http://www.example.com'));
