@@ -13,7 +13,7 @@ function elements(names, ages){
     // contates
     let head = document.createTextNode(names);
     let ageCont = document.createTextNode(ages);
-    img.src = '1.jpeg';
+    img.src = '1.jpg';
     title.appendChild(head);
     age.append(ageCont);
     
@@ -27,6 +27,7 @@ function elements(names, ages){
     card.style.padding = '10px';
     card.style.margin = '4px';
     card.style.display = 'inline-block';
+    // body.style.backgroundcolor = '#444';
 }
 
 for (let i = 0; i < 6; i++){
